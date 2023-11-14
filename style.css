@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: "Sans-Seriferif";
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Consolas';
+    background-color: #bba7e9;
+    font-weight: 700;
+}
+.blogp{
+    text-align: center;
+}
+.top{
+    text-align:center;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.chat-container {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid #bba7e9;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.user-message {
+    color: white;
+}
+
+.other-message {
+    color: black;
+}
+
+.message input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.message input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.user-details {
+    margin-bottom: 10px;
+}
+
+.user-details input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.started {
+    color: white;
+    font-weight: bold;
+    background: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .container-wrapper {
+        flex-direction: row;
+    }
+}
+
+.container {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 800%;
+    object-fit: contain;
+}
+
+.completed {
+    color: white;
+    font-weight: bold;
+    background: greenyellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h4 {
+    color: black;
+    text-shadow: 2px 2px 4px rgb(232, 232, 241);
+}
+
+.card {
+    flex: 1;
+    border: 1px solid black;
+    overflow-y: scroll;
+    border-radius: 12px;
+    padding: 50px;
+    margin-left:200px;
+    margin-top: 40px;
+    margin-right: 20px;
+    max-width: 900px;
+}
+
+.card.blogcard{
+    flex: 1;
+    background-color: #2b4d2c7d;
+    border: 1px solid black;
+    overflow-y: scroll;
+    border-radius: 12px;
+    padding: 50px;
+    margin-left:200px;
+    margin-top: 40px;
+    margin-right: 20px;
+    max-width: 900px;
+}
+
+.button{
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.button:hover {
+    background-color: green;
+    border-color: #0062cc;
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.button{
+    margin-top:25px;
+    border-radius:10px;
+    background-color:blue;
+    height:38px;
+    width:120px;
+    color:white;
+    text-align:center;
+}
+.button-section
+{
+    text-align:center;
+}
+
+
+
+
+
